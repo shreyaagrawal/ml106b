@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: violet;
+}
+.div_heading{
+    margin: auto;
+    background-color: lightblue;
+    width: 350px;
+    border-radius: 10px;
+    word-spacing: 10px;
+    color: white;
+    letter-spacing: 5px;
+}
+.color_white{
+    color: white;
+}
+.vl{
+    border-left: 2px solid white;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#capture_image{
+    background-color:slateblue;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.label_color{
+    color: green;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 2px;
+}
+#camera, #result{
+    border: 2px dashed white;
+    height: 300px;
+    width: 350px;
+}
+#predict_emotion{
+    background-color: green;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;   
+}
+.line{
+    display: flex;
+}
+#capture, #predicition, #snapshot{
+    margin: 100px;
+}
+#predicition{
+    color: white;
+}

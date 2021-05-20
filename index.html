@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>P106</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  </head>
+  <body>
+    <center>
+      <div class="div_heading">
+        <h2>GESTURE  WEB  APP</h2>
+      
+        <span>&#128076;</span>
+        <span>&#128077;</span>
+        <span>&#128400;</span>
+        <span>&#128078;</span>
+        <span>&#128080;</span>
+      </div>
+  <br><br>
+      <h3 class="color_white">Take a selfie of a gesture to know about it's meaning</h3>
+      <h4 class="color_white">On the following gesture the model is trained-</h4>
+  
+      <div>
+      <span>&#128077;</span>
+      <span class="vl"></span>
+      <span>&#128406;</span>
+      <span class="vl"></span>
+      <span>&#128078;</span>
+      <span class="v1"></span>
+      <span>&#128076;</span>
+      </div>
+  
+      <div class="line">
+      <div  id="capture" class="col-md-4 col-sm-12 col-xs-12">
+        <label class="label_color">Webcam View- </label>
+        <div id="camera"></div>
+        <br>
+        <button id="capture_image" onclick="capture_image()">Capture Image</button>
+      </div>
+
+      <div id="predicition" class="col-md-4 col-sm-12 col-xs-12">
+        <label class="label_color">Predicition-</label>
+        
+        <p id="predicition_name1"></p>
+        <p id="update_emoji1"></p>
+
+        <p id="predicition_name2"></p>
+        <p id="update_emoji2"></p>
+
+      </div>
+ 
+      <div id="snapshot" class="col-md-4 col-sm-12 col-xs-12">
+        <label class="label_color">Snapshot-</label>
+        <div id="result"></div>
+        <br>
+        <button id="predict_emotion" onclick="predict_emotion()">Predict Emotion</button>
+      </div>
+      </div>
+    </center>
+    
+    <script src="main.js"></script>
+  
+  </body>
+</html>
